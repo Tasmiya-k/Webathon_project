@@ -1,0 +1,127 @@
+.signIn-page .outerbox{
+    position: absolute;
+	left: 75%;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+    border: 1px ;
+    padding:35px;   
+}
+.outerbox{
+    background-color:rgb(0, 4, 255);
+}
+
+.register{
+    text-align: center;
+    border: 1px ;
+    border-radius: 10%;
+    padding-right: 30px;
+    padding-left:30px;
+    background-color: #5ba4cf;
+}
+
+fieldset{
+    padding: 20px;
+    border-color:  black;
+    border:1px;
+    background-color:#ffffff    ;
+    border-radius: 10%;
+}
+
+.Button{
+    text-align: center;
+    size: 70px;
+   color:#5f3434;
+}
+.submit{
+    background-color: #5f3434;
+}
+.Uname{
+    border:2px solid dodgerblue;
+    width: 200px;
+    height: 20px;
+}
+.Year{
+    border:2px solid  dodgerblue;
+    width: 200px;
+    height: 20px;
+}
+
+.signIn-page{
+    background: url(../media/blue_back.jpg) no-repeat;
+    background-size:cover;
+    height:100vh;
+    width: 70%;
+    background-color: #7db4f3;
+}
+.Submit{
+    width: 100%;
+    padding:4px;
+    background-color:rgb(0, 4, 255);
+    color:#ffffff;
+    font-size: large;
+    
+    border:1px ;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.Submit:hover{
+    background: #0845a0;
+}
+
+.Submit:active{
+    background-color:rgb(0, 4, 255) ;
+}
+.name {
+    font-size: large;
+    font-weight: bold;
+    color:rgb(0, 4, 255);
+}
+.year{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 4, 255);
+}
+.phoneNo{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(0, 4, 255); 
+}
+
+.Number{
+    border:2px solid  dodgerblue;
+    width: 200px;
+    height: 20px;
+}
+
+.description{
+    position: absolute;
+    top:10%;
+    left:3%;
+    right:50%;
+    padding:10px;
+    background-color: #ffffff;
+    border:2px solid black;
+    border-radius: 6px;
+}
+
+p{
+    font-size: large;
+    margin:3px 3px 3px 3px;
+    padding:5px;
+}
+
+li{
+    font-size: 20px;
+    font-weight: bolder;
+    color:rgb(22, 23, 107);        
+}
+h1{
+    color:#0845a0;
+    background :#ffffff;
+    padding:6px;
+    width:50%
+}
+
